@@ -62,3 +62,4 @@ logging.level.org.springframework.security=DEBUG
 
 ## Referencias:
 - [Keycloak Integration With SpringSecurity](https://medium.com/javarevisited/keycloak-integration-with-spring-security-6-37999f43ec85)
+- [Consuming an Endpoint protected by an oauth2 Resourcer Server from a Springboot Service](https://laurspilca.com/consuming-an-endpoint-protected-by-an-oauth-2-resource-server-from-a-spring-boot-service/)
