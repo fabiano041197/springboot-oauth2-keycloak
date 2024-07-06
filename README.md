@@ -35,6 +35,13 @@ Para usar o projeto é necessário a configuração de alguns itens direto no ke
          - app_admin
 
 ## Configuração do Springboot com o Keycloak
+
+> **Você pode subir o keycloak local usando o comando abaixo:**
+```
+docker run -p 8080:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin quay.io/keycloak/keycloak:25.0.1 start-dev
+```
+
+
 O processo de integração entre o springboot e o keycloack, basicamente funciona através do código
 
 application.properties
@@ -52,3 +59,6 @@ jwt.auth.converter.principal-attribute=principal_username
 # Logging Configuration
 logging.level.org.springframework.security=DEBUG
 ```
+
+## Referencias:
+- [Keycloak Integration With SpringSecurity](https://medium.com/javarevisited/keycloak-integration-with-spring-security-6-37999f43ec85)
